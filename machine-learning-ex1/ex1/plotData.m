@@ -20,7 +20,7 @@ plot(x, y, 'rx', 'MarkerSize', 10);
 ylabel('Profit in $10,000s');
 xlabel('Population of the city in $10,000s');
 
-
+% print -dpdf pop.pdf
 % ============================================================
 
 end

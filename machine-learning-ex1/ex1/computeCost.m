@@ -13,6 +13,7 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+% X(1:4,:)
 h = X * theta;
 %h(1:4, :)
 err = h - y;
