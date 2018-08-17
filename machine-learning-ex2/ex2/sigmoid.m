@@ -9,9 +9,9 @@ g = zeros(size(z));
 % Instructions: Compute the sigmoid of each value of z (z can be a matrix,
 %               vector or scalar).
 
+f = inline ('1/(1+e^(-1*x))');
 
-
-
+g = arrayfun(f, z);
 
 % =============================================================
 

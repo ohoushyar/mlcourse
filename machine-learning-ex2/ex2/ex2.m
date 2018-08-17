@@ -44,7 +44,7 @@ ylabel('Exam 2 score')
 % Specified in plot order
 legend('Admitted', 'Not admitted')
 hold off;
-print -dpdf data.pdf
+% print -dpdf plot.pdf
 
 fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
